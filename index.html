@@ -1,0 +1,129 @@
+<!DOCTYPE html> 
+<html>
+<head>
+  <title>Online DVD Remtal Shop </title>
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <header>
+	  <div id="banner">
+	    <div id="welcome">
+	      <h2>IFSC Video Online Shop</h2>
+	    </div>	  	
+	  </div>
+	</header>
+	
+	<nav>
+	  <div id="menubar">
+        <ul id="nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="join now.html">Join now</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li class="current"><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </div>
+	</nav>
+    
+	<div id="site_content">		
+
+      <div class="slideshow">
+	    <ul class="slideshow">
+          <li class="show"><img width="940" height="300" src="images/home_1.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+          <li><img width="940" height="300" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
+        </ul> 
+	  </div>	
+	
+	  <div class="sidebar_container">       
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Message</h2>
+            <p>Welcome to our new website</p>
+          </div>
+		  </div>					  
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Latest Release</h2>
+            <h3>December 2014</h3>
+            <p></p>         
+		  </div> 
+        </div>
+		<div class="sidebar">
+          <div class="sidebar_item">
+            <p></p>         
+		  </div>
+        </div>	
+        <div class="sidebar">
+          <div class="sidebar_item">
+            <h2>Contact</h2>
+            <p>Phone: +353 892272370</p>
+            <p>Email: <a href="mailto:adhikarivishan@gmail.com">info@ifscvideosonlineshop.ie</a></p>
+          </div>
+        </div>
+       </div>	
+	
+	  <div id="content">
+        <div class="content_item">
+		  <h1>Welcome To Your Website</h1> 
+		  
+        <section>
+
+  
+			<div id="demo"><h2>Trailer</h2></div>
+
+<button type="button" onclick="loadDoc()">Watch Trailer</button>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      document.getElementById("demo").innerHTML = xhttp.responseText;
+    }
+  };
+  xhttp.open("GET", "videos.xml", true);
+  xhttp.send();
+}
+</script>
+				</div>
+				<div class="img">
+					 <a target="_blank"><img src="images/2.jpg" alt="Movies" width="110" height="90"></a>
+					 <div class="desc">Elysium </div>
+				</div>
+			<div class="img">
+				 <a target="_blank"><img src="images/3.jpg" alt="Movies" width="110" height="90"></a>
+				 <div class="desc">Snitch</div>
+				</div>
+				<div class="img">
+				 <a target="_blank"><img src="images/4.jpg" alt="Movies" width="120" height="90"></a>
+					<div class="desc">FAST AND FURIOUS 6</div>
+			</div>
+			</section>
+									  
+	<div class="content_imagetext">
+		<div class="content_image">
+		      <img src="images/image1.jpg" alt="image1"/>
+	        </div>
+		    <p> </p>
+		  </div>		  
+		  <div class="content_container">
+		    <p>
+			.</p>
+		  
+		  </div>
+          <div class="content_container">
+		            
+		 
+		    </div>
+		  </div>
+      </div>
+	</div>
+   
+  </div>
+    
+    
+  
+</body>
+
+</html>
