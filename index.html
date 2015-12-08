@@ -68,11 +68,42 @@
 		  <h1>Welcome To Our Website</h1> 
 		  
         <section>
-
- 				<div class="img">
-					 <a target="_blank"><img src="images/2.jpg" alt="Movies" width="110" height="90"></a>
-					 <div class="desc">Elysium </div>
+        		<div class="img">
+				 <a target="_blank"><img src="images/2.jpg" alt="Movies" width="110" height="90"></a>
+				 <div class="desc">Elysium</div>
+				 <body>
+				 	<script>
+									function loadXMLDoc() {
+									  var xmlhttp = new XMLHttpRequest();
+									  xmlhttp.onreadystatechange = function() {
+									    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+									      myFunction(xmlhttp);
+									    }
+									  };
+									  xmlhttp.open("GET", "videos.xml", true);
+									  xmlhttp.send();
+									}
+									function myFunction(xml) {
+									  var i;
+									  var xmlDoc = xml.responseXML;
+									  var table="<tr><th>Artist</th><th>Title</th></tr>";
+									  var x = xmlDoc.getElementsByTagName("CD");
+									  for (i = 0; i <x.length; i++) { 
+									    table += "<tr><td>" +
+									    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
+									    "</td><td>" +
+									    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+									    "</td></tr>";
+									  }
+									  document.getElementById("demo").innerHTML = table;
+									}
+					</script>
+				 </body>
+				 
 				</div>
+				
+        
+				
 			<div class="img">
 				 <a target="_blank"><img src="images/3.jpg" alt="Movies" width="110" height="90"></a>
 				 <div class="desc">Snitch</div>
@@ -123,10 +154,10 @@
 	</div>
 	  
   </div>
-	<footer>
-	  <a href="index.html">Home</a> | <a href="ourwork.html">Our Work</a> | <a href="join now.html">Join now</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact us</a><br/><br/>
+ 	<footer>
+	  <a href="index.html">Home</a> | <a href="join now.html">Join now</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact us</a><br/><br/>
 	  <a href="https://www.youtube.com/watch?v=Aojd0pE_MJ8">Enjoy song</a>
-    </footer> 	
+  </footer> 
 </body>
 
 </html>

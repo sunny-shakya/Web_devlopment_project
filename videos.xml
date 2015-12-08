@@ -1,8 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<MOVIES_DETAILS>
+    <MOVIE>
+        <name>Elysium</name>
+        <release>August 7, 2013</release>
+        <country>Taiwan</country>
+        <poster href="https://spthumbnails.5min.com/10356278/517813899_3_620_439.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+    <MOVIE>
+        <name>Snich</name>
+        <release>February 21, 2013</release>
+        <country>America</country>
+        <poster href="http://elpaisanoonline.com/wp-content/uploads/2013/02/Snitch-Movie.jpg" width= "215" height="315"></poster>
+   </MOVIE>
     <movie>
-        <name>ghff</name>
-        <release>18/02/2016</release>
-        <country>Ireland</country>
-        <poster href="http://static.indianexpress.com/m-images/M_Id_416764_dhoom-aamir-katrina.jpg" width= "215" height="315"></poster>
-   </movie>
-    
+        <name>FAST AND FURIOUS 6</name>
+        <release>May 17, 2013</release>
+        <country>Republic of Ireland</country>
+        <poster href="https://upload.wikimedia.org/wikipedia/en/b/bb/Fast_Six_Soundtrack.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+    <MOVIE>
+        <name>PiratesOfCaribbean</name>
+        <release>August 8, 2003</release>
+        <country>Republic of Ireland</country>
+        <poster href="http://www.dan-dare.org/FreeFun/Images/CartoonsMoviesTV/PiratesOfTheCaribbeanWallpaper800.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+    <MOVIE>
+        <name>Avatar</name>
+        <release> December 18, 2009</release>
+        <country>Republic of Ireland</country>
+        <poster href="http://images2.fanpop.com/image/photos/9800000/-AVATAR-avatar-2009-film-9856003-1680-1050.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+    <MOVIE>
+        <name>battleship</name>
+        <release> April 11, 2012 </release>
+        <country>Republic of Ireland</country>
+        <poster href="http://onlinemovies.pro/wp-content/uploads/2014/06/Battleship-2012-poster.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+    <MOVIE>
+        <name>perfume</name>
+        <release> December 26, 2006</release>
+        <country>Republic of Ireland</country>
+        <poster href="http://dvdmedia.ign.com/dvd/image/object/924/924964/Perfume_DVD_3D_Finalboxart_160w.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+    <MOVIE>
+        <name>Titanic</name>
+        <release>November 18, 1997</release>
+        <country>United Kingdom</country>
+        <poster href="http://cosmouk.cdnds.net/14/41/1600x800/nrm_1412870297-titanic-still.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+   </MOVIES_DETAILS>
+
+   
