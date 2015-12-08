@@ -1,9 +1,3 @@
-/* @font-face { 
-  font-family: News Cycle; 
-    src: url('../fonts/NewsCycle-Regular.eot'); 
-    src: local("News Cycle"), url('../fonts/NewsCycle-Regular.ttf'); 
-}  */
-
 html
 { height: 100%;}
 
@@ -85,10 +79,10 @@ ol li
   margin-right: auto;}
 
 #main
-{ background: #1D1D1D url(../images/pattern.png) repeat;}
+{ background: #1D1D1D repeat;}
   
 header
-{ background: #1D1D1D url(../images/pattern.png) repeat;
+{ background: #333300 repeat;
   -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   -moz-box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;
   box-shadow: rgba(0, 0, 0, 0.5) 0px 0px 5px;}
