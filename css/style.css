@@ -223,18 +223,15 @@ footer
   font-weight: bold;
   text-align: center; 
   text-shadow: 1px 1px #000;
-  color: #336699;}
+  color: #336699;
+  
+}
 
 footer a
 { color: #336699;
   text-decoration: none;
   padding-bottom: 20px;}
 
-
-
- .readmore a
-{ color: #FFF;
-  text-shadow: 1px 1px #004C8C;}
  
  .button_small
 { font: normal 110% Arial, Helvetica, sans-serif;
@@ -287,7 +284,7 @@ footer a
   color: #47433F;
   margin: 28px 0;}
 
-.form_settings .submit
+/*form_settings .submit
 { font: 100% arial; 
   border: 1px solid; 
   width: 99px; 

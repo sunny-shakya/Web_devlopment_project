@@ -1,0 +1,8 @@
+<MOVIES_DETAILS>
+ <MOVIE>
+        <name>Titanic</name>
+        <release>November 18, 1997</release>
+        <country>United Kingdom</country>
+        <poster href="http://cosmouk.cdnds.net/14/41/1600x800/nrm_1412870297-titanic-still.jpg" width= "215" height="315"></poster>
+   </MOVIE>
+</MOVIES_DETAILS>

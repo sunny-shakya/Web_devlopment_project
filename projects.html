@@ -32,6 +32,33 @@
       </div>
 	</nav>
 	
+	<script>
+function loadXMLDoc() {
+  var xmlhttp = new XMLHttpRequest();
+  xmlhttp.onreadystatechange = function() {
+    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+      myFunction(xmlhttp);
+    }
+  };
+  xmlhttp.open("GET", "review.xml", true);
+  xmlhttp.send();
+}
+function myFunction(xml) {
+  var i;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Name</th><th>comment</th></tr>";
+  var x = xmlDoc.getElementsByTagName("MOVIE");
+  for (i = 0; i <x.length; i++) { 
+    table += "<tr><td>" +
+    x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    x[i].getElementsByTagName("COMMENT")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("demo").innerHTML = table;
+}
+</script>
+<!--source code:http://www.w3schools.com/xml/tryit.asp?filename=tryxml_display_table-->
 	
 
 
@@ -48,6 +75,9 @@
           <li><img width="940" height="300" src="images/home_2.jpg" alt="&quot;Enter your caption here&quot;" /></li>
         </ul> 
 	  </div>
+	  <button type="button" onclick="loadXMLDoc()">Get review</button>
+<br><br>
+<table id="demo"></table>
 
 	  <div class="sidebar_container">       
 		<div class="sidebar">
@@ -77,10 +107,39 @@
         </div>
        </div>	
   </div>
-     <footer>
+  <div id="content">
+        <div class="login">
+		
+		<body>
+		  
+	
+		 <section class ="container">
+     	    		   
+		
+
+					
+				</section>
+					</body>
+      		</div>
+      </div>	
+  
+	
+	<style>
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+</style>
+
+
+  
+<footer>
 	  <a href="index.html">Home</a> | <a href="join now.html">Join now</a> | <a href="projects.html">Projects</a> | <a href="contact.html">Contact us</a><br/><br/>
 	  <a href="https://www.youtube.com/watch?v=Aojd0pE_MJ8">Enjoy song</a>
-    </footer> 	
+</footer> 	
   
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/image_slide.js"></script>	
