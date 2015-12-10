@@ -223,16 +223,14 @@ footer
   font-weight: bold;
   text-align: center; 
   text-shadow: 1px 1px #000;
-  color: #FFF;}
+  color: #336699;}
 
 footer a
-{ color: #FFF;
+{ color: #336699;
   text-decoration: none;
   padding-bottom: 20px;}
 
-footer a:hover
-{ text-decoration: underline;
-  color: #FFF;}
+
 
  .readmore a
 { color: #FFF;

@@ -68,36 +68,26 @@
 		  <h1>Welcome To Our Website</h1> 
 		  
         <section>
-        		<div class="img">
+        <div class="img">
 				 <a target="_blank"><img src="images/2.jpg" alt="Movies" width="110" height="90"></a>
 				 <div class="desc">Elysium</div>
 				 <body>
-				 	<script>
-									function loadXMLDoc() {
-									  var xmlhttp = new XMLHttpRequest();
-									  xmlhttp.onreadystatechange = function() {
-									    if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-									      myFunction(xmlhttp);
-									    }
-									  };
-									  xmlhttp.open("GET", "videos.xml", true);
-									  xmlhttp.send();
-									}
-									function myFunction(xml) {
-									  var i;
-									  var xmlDoc = xml.responseXML;
-									  var table="<tr><th>Artist</th><th>Title</th></tr>";
-									  var x = xmlDoc.getElementsByTagName("CD");
-									  for (i = 0; i <x.length; i++) { 
-									    table += "<tr><td>" +
-									    x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
-									    "</td><td>" +
-									    x[i].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
-									    "</td></tr>";
-									  }
-									  document.getElementById("demo").innerHTML = table;
-									}
-					</script>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details1.xml", true);
+								  xhttp.send();
+								}
+								</script>
 				 </body>
 				 
 				</div>
@@ -107,30 +97,156 @@
 			<div class="img">
 				 <a target="_blank"><img src="images/3.jpg" alt="Movies" width="110" height="90"></a>
 				 <div class="desc">Snitch</div>
+				  <body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details2.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 				</div>
 				<div class="img">
 				 <a target="_blank"><img src="images/4.jpg" alt="Movies" width="120" height="90"></a>
 					<div class="desc">FAST AND FURIOUS 6</div>
+					<body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details3.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 			    </div>
 			    <div class="img">
 					 <a target="_blank"><img src="PiratesOfCaribbean.jpg" alt="Movies" width="110" height="90"></a>
 					 <div class="desc">PiratesOfCaribbean</div>
+					 	<body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details4.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 				</div>
 				 <div class="img">
 					 <a target="_blank"><img src="Avatar.jpg" alt="Movies" width="110" height="90"></a>
 					 <div class="desc">Avatar</div>
+					 	<body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details5.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 				</div>
 				 <div class="img">
 					 <a target="_blank"><img src="battleship.jpg" alt="Movies" width="110" height="90"></a>
 					 <div class="desc">Battleship</div>
+					 	<body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details6.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 				</div>
 				 <div class="img">
 					 <a target="_blank"><img src="perfume.jpg" alt="Movies" width="110" height="90"></a>
 					 <div class="desc">Perfume</div>
+					 	<body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details7.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 				</div>
 				 <div class="img">
 					 <a target="_blank"><img src="Titanic.jpg" alt="Movies" width="110" height="90"></a>
 					 <div class="desc">Titanic</div>
+					 	<body>
+				 	<div id="demo"></div>
+
+						<button type="button" onclick="loadXMLDoc()">View Details</button>
+
+						<script>
+								function loadXMLDoc() {
+								  var xhttp = new XMLHttpRequest();
+								  xhttp.onreadystatechange = function() {
+								    if (xhttp.readyState == 4 && xhttp.status == 200) {
+								      document.getElementById("demo").innerHTML = xhttp.responseText;
+								    }
+								  };
+								  xhttp.open("GET", "details8.xml", true);
+								  xhttp.send();
+								}
+								</script>
+				 </body>
 				</div>
 			</section>
 									  
