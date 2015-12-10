@@ -64,3 +64,4 @@ function gallery() {
 
   }
 }
+// source:http://www.jssor.com/demos/image-slider.slider

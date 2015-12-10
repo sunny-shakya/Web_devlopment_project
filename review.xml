@@ -1,14 +1,27 @@
 <MOVIE>
 <REVIEW>
     <NAME>ANDY</NAME>
-    <COMMENT>VERY GOOD SERVICE</COMMENT>
+    <COMMENT>Veyr good service could be better.</COMMENT>
     <TIME>11 DEC</TIME>
         
         
 </REVIEW>
 <REVIEW>
-    <NAME>ANDY</NAME>
+    <NAME>John Murphy</NAME>
     <COMMENT>VERY GOOD SERVICE</COMMENT>
      <TIME>11 DEC</TIME>
+</REVIEW>
+
+<REVIEW>
+    <NAME>Aron cooney</NAME>
+    <COMMENT> I can't believe the selection of movies I can choose from, I haven't looked back since joining in 2008”  </COMMENT>
+    <TIME>7 DEC</TIME>
+        
+        
+</REVIEW>
+<REVIEW>
+    <NAME>Maria sharapova</NAME>
+    <COMMENT>Satisfied by the customer service  </COMMENT>
+     <TIME>7 DEC</TIME>
 </REVIEW>
 </MOVIE>
